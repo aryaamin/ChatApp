@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.jpeg" alt="Chat">
+    </nav>
+    <div class="container">
+
+    </div>
+    <br>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+
+            <!-- <div class="check-box">
+                <input type="checkbox" id="c1" name="c1">
+                <label for="c1"> I have a bike</label>
+            </div> -->
+            <!-- <br> -->
+            <button class="btn" type="submit">=></button>
+        </form>
+    </div>
+
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>   
+</body>
+</html>
